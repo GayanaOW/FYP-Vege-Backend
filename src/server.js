@@ -24,7 +24,7 @@ const exportCache = new Map();
 app.use(cors({
   origin: [
     "http://localhost:3000", // local dev
-    "https://fyp-vege-frontend-7zq9.vercel.app" // deployed frontend
+    "https://vegecastfrontend.vercel.app/" // deployed frontend
   ],
   credentials: true
 }));
